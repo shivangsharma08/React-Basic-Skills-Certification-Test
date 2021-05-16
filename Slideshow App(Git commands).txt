@@ -1,0 +1,8 @@
+RUN
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm start
+
+TEST
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm test
+
+INSTALL
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm install
